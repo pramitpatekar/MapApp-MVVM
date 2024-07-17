@@ -8,7 +8,7 @@
 import Foundation
 import MapKit
 
-struct Location {
+struct Location: Identifiable {
     
     let name: String
     let cityName: String
@@ -16,5 +16,9 @@ struct Location {
     let description: String
     let imageNames: [String]
     let link: String
+    
+    var id: String {                  //computed variable
+     name + cityName
+    }
     
 }
