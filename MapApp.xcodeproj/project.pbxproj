@@ -16,6 +16,7 @@
 		85CF79402C4848BB00620138 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CF793F2C4848BB00620138 /* LocationsView.swift */; };
 		85CF79422C48529000620138 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CF79412C48529000620138 /* LocationsViewModel.swift */; };
 		85CF79442C48FDB400620138 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CF79432C48FDB400620138 /* LocationsListView.swift */; };
+		85CF79462C4A6CEC00620138 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CF79452C4A6CEC00620138 /* LocationPreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		85CF793F2C4848BB00620138 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		85CF79412C48529000620138 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 		85CF79432C48FDB400620138 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		85CF79452C4A6CEC00620138 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				85CF793F2C4848BB00620138 /* LocationsView.swift */,
+				85CF79452C4A6CEC00620138 /* LocationPreviewView.swift */,
 				85CF79432C48FDB400620138 /* LocationsListView.swift */,
 			);
 			path = Views;
@@ -186,6 +189,7 @@
 			files = (
 				85CF793E2C48449300620138 /* LocationsDataService.swift in Sources */,
 				85CF79442C48FDB400620138 /* LocationsListView.swift in Sources */,
+				85CF79462C4A6CEC00620138 /* LocationPreviewView.swift in Sources */,
 				85CF79422C48529000620138 /* LocationsViewModel.swift in Sources */,
 				85AFC2D32C483D5200F392CD /* ContentView.swift in Sources */,
 				85CF79402C4848BB00620138 /* LocationsView.swift in Sources */,
